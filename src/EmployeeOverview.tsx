@@ -1,4 +1,5 @@
 import { Icon } from '@iconify/react'
+import LetsBeginButton from './LetsBeginButton'
 
 export default function EmployeeOverview() {
   return (
@@ -12,10 +13,7 @@ export default function EmployeeOverview() {
             <div className="p-8">
               <h2 className="text-3xl flex items-center mb-2"><span><Icon width={37} height={37} icon="mdi:fire" /></span> Upskill</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
-              <button className="flex items-center w-full justify-between bg-linear-to-r from-[#0D4EB2] to-[#C76BE5] rounded-4xl text-white py-2 px-4 mt-16">
-                <span>Let's Begin</span>
-                <Icon icon="mdi:arrow-right" inline width={31} height={31} />
-              </button>
+              <LetsBeginButton />
             </div>
           </div>
           <div className='shadow-2xl rounded-xl max-w-90'>
@@ -23,10 +21,7 @@ export default function EmployeeOverview() {
             <div className="p-8">
               <h2 className="text-3xl flex items-center mb-2"><span><Icon width={37} height={37} icon="mdi:fire" /></span> Cross-Skill</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
-              <button className="flex items-center w-full justify-between bg-linear-to-r from-[#0D4EB2] to-[#C76BE5] rounded-4xl text-white py-2 px-4 mt-16">
-                <span>Let's Begin</span>
-                <Icon icon="mdi:arrow-right" inline width={31} height={31} />
-              </button>
+              <LetsBeginButton />
             </div>
           </div>
         </div>
