@@ -1,10 +1,10 @@
-import EmployeeOverview from './EmployeeOverview.tsx'
-import ResumeBuilder from './ResumeBuilder.tsx'
+import EmployeeOverview from './EmployeeOverview.tsx';
+import ResumeBuilder from './ResumeBuilder.tsx';
 
 function App() {
   // return <EmployeeOverview />
 
-  return <ResumeBuilder />
+  return <ResumeBuilder />;
 }
 
-export default App
+export default App;
